@@ -1,0 +1,8 @@
+Learning by doing-1
+Two graphs are isomorphic if there is a way to rename the vertices of one to make it identical to the other.
+ Draw all the non isomorphic graphs with two, three, four, and five vertices.
+Ans.
+non isomorphic graphs for 2 vertices is 0
+non isomorphic graphs for 3 vertices is 7
+non isomorphic graphs for 4 vertices is 11
+non isomorphic graphs for 5 vertices is 23

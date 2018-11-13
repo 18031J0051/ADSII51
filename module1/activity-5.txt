@@ -1,0 +1,8 @@
+Fill in blanks-1
+1.Write true/false, for the following statements.
+    a.A tree is cyclic connected graph.  FALSE
+    b.The degree of a vertex is the number of edges incident on it.  TRUE
+    c.Two edges are parallel if they connect the same pair of vertices.  TRUE
+    d.A self-loop is an edge that connects a vertex to itself.  TRUE
+    e.An acyclic graph is a graph with cycles.  FALSE
+    f.The degree of a vertex is the number of incident edges  TRUE
