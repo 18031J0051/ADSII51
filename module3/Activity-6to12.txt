@@ -1,0 +1,54 @@
+1.Fill the missing blanks in the code given below:
+public void addEdge(int v,int w){
+validateVertex(v);
+validateVertex(w);
+adj[_____________].add(w);//Blank1
+Indegree[______________]++;//Blaank2
+E++;
+}
+Ans.
+Blank1=v;
+Blank2=w;
+2.Fill the missing blanks in the code given below:
+private void dfs(Digraph G,int v){
+marked[v]=____________;//Blank1
+for(int w: G.adj(v)){
+edgeto[_____________]=_______________;//Blank1,//Blank3
+dfs(G,______________);//Blank4;
+}}}
+Ans.
+Blank1=true;
+Blank2=w;
+Blank3=v;
+Blank4=w;
+3.Fill in the blanks.
+private void bfs(Digraph G,int s){
+Queue<Integer> q=new Queue<Integer>();
+marked[s]=true;
+distTo[s]=___________;//Blank1
+q.enqueue(s);
+while(!s.isEmpty()){
+int v=________________________;//Blank2
+for(int w:G.adj(v)){
+if(___________________________)//Blank3
+edgeTo[w]=v;
+distTo[w]=distTo[v]+1;
+marked[w]=____________________;//Blank4
+q.enqueue(w);
+}}}}
+Ans.Blank1=0
+Blank2=q.dequeue
+Blank3=!marked[w]
+Blank4=true
+4.Write true/false, for the following statements.
+The reverse postorder of a digraph's reverse is the same as the postorder of the digraph.
+Is a self-loop a cycle?
+Ans.true
+The postorder of a digraph's reverse is the topological order.
+Ans.True
+A directed acyclic graph (or DAG) is a digraph with no directed cycles.
+Ans.True
+The indegree of a vertex is the number of edges pointing from it. The outdegree of a vertex is the number of edges pointing to it.
+Ans.False
+Each vertex of a Digraph G is its own strong component
+Ans.True

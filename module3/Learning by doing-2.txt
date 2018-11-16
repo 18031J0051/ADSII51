@@ -1,0 +1,6 @@
+Draw all the nonisomorphic DAGs with two, three, four, and five vertices ?
+Ans.
+nonisomorphic DAGs with 2 vertices= 3
+nonisomorphic DAGs with 3 vertices= 16
+nonisomorphic DAGs with 4 vertices= 218
+nonisomorphic DAGs with 5 vertices= 9608
